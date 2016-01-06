@@ -5928,3 +5928,42 @@ label {
       background: #226056;
       margin-bottom: 5px;
       display: block; }
+
+.date {
+  /*opacity: .5;*/
+  color: #BEBEBE;
+  font-size: 11px;
+  text-align: center; }
+
+.blog-content {
+  background: #ffffff;
+  padding: 15px; }
+
+.recent_posts {
+  margin-bottom: 90px; }
+  .recent_posts .post {
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #A7A7A7;
+    border-radius: 10px; }
+    .recent_posts .post .post_link {
+      color: #6E6D72; }
+      .recent_posts .post .post_link:hover {
+        text-decoration: none;
+        color: #33CD99; }
+    .recent_posts .post .readmore {
+      color: #20B5B3; }
+      .recent_posts .post .readmore:hover {
+        text-decoration: none;
+        color: #e74c3c; }
+
+.home_date {
+  /*opacity: .5;*/
+  color: #BEBEBE !important;
+  font-size: 11px;
+  font-weight: 200;
+  margin-left: 1.1px;
+  margin-bottom: 6px; }
