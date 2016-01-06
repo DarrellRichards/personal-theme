@@ -1,1 +1,14 @@
-@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss'
+$white: #ffffff;
+$black: #000000;
+$open: "Open Sans", sans-serif;
+$raleway: "Raleway", sans-serif;
+
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss';
+body{
+	background-color: #F1F2F7;
+	padding: 0;
+	margin: 0;
+	font-family: $open;
+}
+@import 'general';
+@import 'header';
