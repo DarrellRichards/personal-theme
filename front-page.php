@@ -11,19 +11,24 @@
 				if ( $the_query->have_posts() ) {
 					while ( $the_query->have_posts() ) {
 						$the_query->the_post();
+						
 			?>
 			<?php 
 				if( have_rows('projects') ):
 
 						// loop through the rows of data
 				    while ( have_rows('projects') ) : the_row();
+						$image = get_sub_field('project_main_image');
+						$title = get_sub_field('project_title');
+						$project_link = get_sub_field('project_link');
 			?>
 			<div class="col-md-4">
-				<div class="project">
-					<?php
-						echo the_sub_field('project_title');
-					?>
-				</div>
+				<a href="<?php echo $project_link; ?>">
+					<div class="project">
+						<img src="<?php echo $image; ?>" alt="">
+						<span class="text-content"><span><?php echo $title; ?></span></span>
+					</div>
+				</a>
 			</div>
 
 		<?php

@@ -5967,3 +5967,44 @@ label {
   font-weight: 200;
   margin-left: 1.1px;
   margin-bottom: 6px; }
+
+.project {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  position: relative; }
+  .project img {
+    border: 6px solid #ffffff;
+    width: 100%;
+    height: 300px; }
+
+span.text-content {
+  background: rgba(61, 173, 151, 0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0; }
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+
+span.text-content {
+  background: rgba(61, 173, 151, 0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  font-size: 1.4em;
+  opacity: 0; }
+
+.project:hover span.text-content {
+  opacity: 1; }
