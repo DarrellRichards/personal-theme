@@ -33,7 +33,7 @@
   		<h1>My name is Darrell Richards Jr</h1>
   		<hr>
   		<p>I'm a Web Developer located in Roanoke,Virginia</p>
-  		<a href="#nav" class="intro_button"><i class="fa fa-arrow-down fa-1x"></i></a>
+  		<a href="" class="intro_button"><i class="fa fa-arrow-down fa-1x"></i></a>
   	</div>
   </div>
 </div>
