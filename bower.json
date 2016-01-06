@@ -1,0 +1,21 @@
+{
+  "name": "personal-theme",
+  "homepage": "https://github.com/DarrellRichards/personal-theme",
+  "authors": [
+    "Darrell Richards <hello@darrellrichards.com>"
+  ],
+  "description": "Custom Personal Wordpress Theme",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
