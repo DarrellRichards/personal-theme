@@ -3,7 +3,44 @@
 	<h2 class="headline">Portfolio</h2>
 	<div class="container">
 		<div class="row">
-			<p class="text-center">Unfortunately at this time. I do not have work to show for because of contract with companies.</p>
+			<?php 
+				$project = array('pagename' => 'work' );
+				$the_query = new WP_Query( $project );
+
+				// The Loop
+				if ( $the_query->have_posts() ) {
+					while ( $the_query->have_posts() ) {
+						$the_query->the_post();
+			?>
+			<?php 
+				if( have_rows('projects') ):
+
+						// loop through the rows of data
+				    while ( have_rows('projects') ) : the_row();
+			?>
+			<div class="col-md-4">
+				<div class="project">
+					<?php
+						echo the_sub_field('project_title');
+					?>
+				</div>
+			</div>
+
+		<?php
+					endwhile;
+
+						else :
+
+   						 echo "Sorry nothing found";
+
+						endif;
+					}
+				} else {
+					// no posts found
+				}
+				/* Restore original Post Data */
+				wp_reset_postdata();
+			?>
 		</div>
 	</div>
 </div>
