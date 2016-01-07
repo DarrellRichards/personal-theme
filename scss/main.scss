@@ -10,6 +10,10 @@ body{
 	margin: 0;
 	font-family: $open;
 }
+html, body
+{
+    height: 100%;
+}
 @import 'general';
 @import 'header';
 @import 'homepage';

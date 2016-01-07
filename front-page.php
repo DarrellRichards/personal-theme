@@ -1,4 +1,14 @@
 <?php get_header(); ?>
+	<div id="intro_content">
+  <div class="container">
+  	<div id="intro_wrapper">
+  		<h1>My name is Darrell Richards Jr</h1>
+  		<hr>
+  		<p>I'm a Web Developer located in Roanoke,Virginia</p>
+  		<a href="" class="intro_button"><i class="fa fa-arrow-down fa-1x"></i></a>
+  	</div>
+  </div>
+</div>
 	<div class="portfolio" id="portfolio">
 	<h2 class="headline">Portfolio</h2>
 	<div class="container">
