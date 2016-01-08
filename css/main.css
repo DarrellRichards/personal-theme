@@ -5923,24 +5923,25 @@ label {
 
 .recent_posts {
   margin-bottom: 90px; }
-  .recent_posts .post {
-    background: #ffffff;
-    padding: 10px;
-    margin-top: 20px;
-    font-weight: 200;
-    font-size: 14px;
-    color: #A7A7A7;
-    border-radius: 10px; }
-    .recent_posts .post .post_link {
-      color: #6E6D72; }
-      .recent_posts .post .post_link:hover {
-        text-decoration: none;
-        color: #33CD99; }
-    .recent_posts .post .readmore {
-      color: #20B5B3; }
-      .recent_posts .post .readmore:hover {
-        text-decoration: none;
-        color: #e74c3c; }
+
+.post {
+  background: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 14px;
+  color: #A7A7A7;
+  border-radius: 10px; }
+  .post .post_link {
+    color: #6E6D72; }
+    .post .post_link:hover {
+      text-decoration: none;
+      color: #33CD99; }
+  .post .readmore {
+    color: #20B5B3; }
+    .post .readmore:hover {
+      text-decoration: none;
+      color: #e74c3c; }
 
 .home_date {
   /*opacity: .5;*/
