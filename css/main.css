@@ -5908,6 +5908,9 @@ label {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent; }
 
+.current-menu-item {
+  border-bottom: 1px solid white; }
+
 .date {
   /*opacity: .5;*/
   color: #BEBEBE;
