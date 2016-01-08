@@ -17,6 +17,9 @@ html, body
 
 #page_wrapper{
 	padding-top: 2em;
+	.page_content{
+		margin-top: 3em;
+	}
 }
 @import 'general';
 @import 'header';
