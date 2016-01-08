@@ -5883,37 +5883,15 @@ label {
   background-image: url("../images/intro_bg.jpg");
   background-size: cover;
   height: 733px; }
-  #intro_content #left_logo {
-    padding-top: 0.55em;
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    color: rgba(0, 0, 0, 0.5); }
-  #intro_content #right_side_menu {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 15px;
-    margin: 30px;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    text-align: right;
-    right: 120px; }
-    #intro_content #right_side_menu span {
-      height: 3px;
-      background: rgba(0, 0, 0, 0.5);
-      margin-bottom: 6px;
-      display: block; }
 
 /* Boring Bootstrap CSS overwrites */
 .navbar-default {
   background-color: rgba(43, 119, 105, 0.4);
   border-color: transparent;
   position: absolute;
-  /* margin: 0 auto; */
-  /* left: 20%; */
-  width: 100%
-  /* right: 20%; */ }
+  z-index: 1000;
+  width: 100%;
+  min-height: 30px; }
   .navbar-default a {
     color: #ffffff !important; }
   .navbar-default .navbar-brand {
