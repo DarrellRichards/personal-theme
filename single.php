@@ -9,7 +9,6 @@
 						<p class="home_date">
 							<i class="fa fa-calendar"></i>  <?php the_time("j M 'y") ?>
 							<i class="fa fa-user"></i> <?php the_author(); ?>
-							<i class="fa fa-comment"></i> <a href="<?php comments_link(); ?>"><?php comments_number( '0', '1', '%' ); ?></a>
 							<i class="fa fa-tags"></i> <?php echo get_the_tag_list(' ',',',''); ?></p>
 						<hr>
 						<?php the_content(); ?>
