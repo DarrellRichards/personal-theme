@@ -21,6 +21,16 @@ html, body
 		margin-top: 3em;
 	}
 }
+
+.post_content:last-child {
+    border: none;
+}
+.post_content {
+	text-align: center;		
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
 @import 'general';
 @import 'header';
 @import 'homepage';
