@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div id="intro_content">
+<div id="intro_content">
   <div class="container">
   	<div id="intro_wrapper">
   		<h1>My name is Darrell Richards Jr</h1>
@@ -8,8 +8,8 @@
   		<a href="#portfolio" class="intro_button"><i class="fa fa-arrow-down fa-1x"></i></a>
   	</div>
   </div>
-</div>
-	<div class="portfolio" id="portfolio">
+</div> <!-- end intro_content -->
+<div class="portfolio" id="portfolio">
 	<h2 class="headline">Portfolio</h2>
 	<div class="container">
 		<div class="row">
@@ -58,7 +58,7 @@
 			?>
 		</div>
 	</div>
-</div>
+</div> <!-- end portfolio -->
 <div class="recent_posts">
 	<h2 class="headline">Blog</h2>
 	<div class="container">
@@ -101,7 +101,7 @@
 			?>
 		</div>
 	</div>
-</div>
+</div> <!-- end recent_posts -->
 <div class="services">
 	<h2 class="headline">Services</h2>
 	<div class="container">
@@ -117,21 +117,24 @@
 						
 			?>
 			<?php 
-				if( have_rows('projects') ):
+				if( have_rows('services') ):
 
 						// loop through the rows of data
-				    while ( have_rows('projects') ) : the_row();
-						$image = get_sub_field('project_main_image');
-						$title = get_sub_field('project_title');
-						$project_link = get_sub_field('project_link');
+				    while ( have_rows('services') ) : the_row();
+						$icon = get_sub_field('service_icon');
+						$title = get_sub_field('service_title');
+						$service_info = get_sub_field('service_info');
 			?>
 			<div class="col-md-4">
-				<a href="<?php echo $project_link; ?>">
-					<div class="project">
-						<img src="<?php echo $image; ?>" alt="">
-						<span class="text-content"><span><?php echo $title; ?></span></span>
+				<div class="service">
+					<div class="icon">
+						<?php echo $icon; ?>
 					</div>
-				</a>
+					<h3 class="service_title">
+						<?php echo $title; ?>
+					</h3>
+					<p class="service_info"><?php echo $service_info; ?></p>
+				</div>
 			</div>
 
 		<?php
