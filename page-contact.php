@@ -18,10 +18,9 @@
 								<p class="website"><i class="fa fa-globe"></i> <a href="http://www.darrellrichards.com">www.darrellrichards.com</a></p>
 								<hr>
 								<ul class="social">
-									<li><a href="#"><i class="fa fa-twitter fa-1x"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram fa-1x"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin fa-1x"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook fa-1x"></i></a></li>
+									<li><a href="https://twitter.com/Via_MacAttack" target="_blank"><i class="fa fa-twitter fa-1x"></i></a></li>
+									<li><a href="https://www.instagram.com/darrellrrichards/" target="_blank"><i class="fa fa-instagram fa-1x"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/darrellrdesigns" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></li>
 								</ul>
 							</div>
 						</div>
