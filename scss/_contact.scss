@@ -40,6 +40,7 @@ span.ninja-forms-req-symbol {
 #contact_form {
     background: white;
     padding: 20px;
+    font-family: $open;
 }
 
 input[type=text]:focus, textarea:focus {
@@ -53,4 +54,50 @@ input[type=text]:focus, textarea:focus {
     min-width: 115px!important;
     background: #1fb5ac;
     color: white;
+}
+
+
+/* Contact Sidebar */
+
+#contact_side{
+	background: $white;
+	font-family: $open;
+	padding: 20px;
+	.contact_info{
+		margin-left: 10px;
+		p, a{
+			color: #8c8c8c;
+			margin-bottom:10px; 
+			a:hover{
+				text-decoration: none;
+				color: #1fb5ac;
+			}
+			i{
+				margin-right: 20px;
+			}
+		}
+		h3{
+			color: #32323a;
+			margin-bottom: 20px;
+		}
+		ul{
+			list-style-type: none;
+		    padding: 0;
+		    margin: 0;
+		    li{
+		    	display: inline-block;
+		    	i{
+		    		font-size: 22px;
+		    	}
+		    	a{
+		    		margin-right: 30px;
+		    		&:hover{
+		    			i{
+		    				color: #1fb5ac;
+		    			}
+		    		}
+		    	}
+		    }
+		}
+	}
 }

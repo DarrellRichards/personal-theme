@@ -10,8 +10,20 @@
 					</div>
 
 					<div class="col-md-5">
-						<div id="content_side">
-							<p>Contact Information</p>
+						<div id="contact_side">
+							<div class="contact_info">
+								<h3>Contact Details</h3>
+								<p class="phone"><i class="fa fa-phone"></i> (540)526-4499</p>
+								<p class="email"><i class="fa fa-envelope-o"></i> <a href="mailto:hello@darrellrichards.com">hello@darrellrichards.com</a></p>
+								<p class="website"><i class="fa fa-globe"></i> <a href="http://www.darrellrichards.com">www.darrellrichards.com</a></p>
+								<hr>
+								<ul class="social">
+									<li><a href="#"><i class="fa fa-twitter fa-1x"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram fa-1x"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin fa-1x"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook fa-1x"></i></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					

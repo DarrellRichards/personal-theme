@@ -6050,7 +6050,8 @@ span.ninja-forms-req-symbol {
 
 #contact_form {
   background: white;
-  padding: 20px; }
+  padding: 20px;
+  font-family: "Open Sans", sans-serif; }
 
 input[type=text]:focus, textarea:focus {
   border: .5px solid green; }
@@ -6062,6 +6063,37 @@ input[type=text]:focus, textarea:focus {
   min-width: 115px !important;
   background: #1fb5ac;
   color: white; }
+
+/* Contact Sidebar */
+#contact_side {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px; }
+  #contact_side .contact_info {
+    margin-left: 10px; }
+    #contact_side .contact_info p, #contact_side .contact_info a {
+      color: #8c8c8c;
+      margin-bottom: 10px; }
+      #contact_side .contact_info p a:hover, #contact_side .contact_info a a:hover {
+        text-decoration: none;
+        color: #1fb5ac; }
+      #contact_side .contact_info p i, #contact_side .contact_info a i {
+        margin-right: 20px; }
+    #contact_side .contact_info h3 {
+      color: #32323a;
+      margin-bottom: 20px; }
+    #contact_side .contact_info ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      #contact_side .contact_info ul li {
+        display: inline-block; }
+        #contact_side .contact_info ul li i {
+          font-size: 22px; }
+        #contact_side .contact_info ul li a {
+          margin-right: 30px; }
+          #contact_side .contact_info ul li a:hover i {
+            color: #1fb5ac; }
 
 @media (min-width: 768px) {
   .navbar {
