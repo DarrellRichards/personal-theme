@@ -1,0 +1,56 @@
+
+/* Ninja Form Classes */
+.ninja-forms-required-items {
+    display: none;
+}
+
+span.ninja-forms-req-symbol {
+    display: none;
+}
+
+.ninja-forms-field-error {
+    color: #1fb5ac!important;
+}
+
+
+/* Contact Form CSS */
+
+.Contact_boxes-wrap {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.Contact_boxes {
+    padding: 10px;
+    background: #f0f0f0;
+    border: none;
+}
+
+.text_area_box-wrap {
+    width: 98%;
+}	
+
+.text_area_box {
+    background: white;
+    border: none;
+    padding: 15px;
+}	
+
+#contact_form {
+    background: white;
+    padding: 20px;
+}
+
+input[type=text]:focus, textarea:focus {
+  border: .5px solid green;
+}
+
+.Form_Button {
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    min-width: 115px!important;
+    background: #1fb5ac;
+    color: white;
+}
