@@ -5779,8 +5779,7 @@ html, body {
 .post_content {
   text-align: center;
   margin-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid lightgrey; }
+  padding-bottom: 20px; }
 
 /* Login Header */
 .logged-in {
