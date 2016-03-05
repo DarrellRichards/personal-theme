@@ -8,7 +8,7 @@
 					<div class="page_content post">
 						<a href="<?php the_permalink(); ?>" class="post_link"><h4><?php the_title(); ?></h4></a>
 							<p class="home_date">
-								<i class="fa fa-calendar"></i>  <?php the_time("j M 'y") ?>
+								<i class="fa fa-calendar"></i>  <?php the_time("F j, Y") ?>
 								<i class="fa fa-user"></i> <?php the_author(); ?>
 								<i class="fa fa-tags"></i> <?php echo get_the_tag_list(' ',',',''); ?>
 							</p>
