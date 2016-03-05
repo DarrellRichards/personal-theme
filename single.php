@@ -6,6 +6,7 @@
 			<div class="row">
 				<div class="col-md-7">
 					<div class="content blog-content">
+						<h3><?php the_title(); ?></h3>
 						<p class="home_date">
 							<i class="fa fa-calendar"></i>  <?php the_time("j M 'y") ?>
 							<i class="fa fa-user"></i> <?php the_author(); ?>
@@ -17,9 +18,11 @@
 				</div>
 				<div class="col-md-5">
 					<div class="content">
-						<aside class="sidebar">
-							<h4>Sidebar Coming Soon!</h4>
-						</aside>
+						<?php if ( is_active_sidebar( 'blog_sidebar' ) ) : ?>
+							<aside class="sidebar">
+								<?php dynamic_sidebar( 'blog_sidebar' ); ?>
+							</aside>
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>		

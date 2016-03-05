@@ -66,7 +66,7 @@
 			<?php
 				$args = array(
 					'post_type' => 'post',
-					'posts_per_page' => 6
+					'posts_per_page' => 4
 				);
 				$the_query = new WP_Query( $args );
 
@@ -83,10 +83,9 @@
 									}
 								?>
 								<a href="<?php the_permalink(); ?>" class="post_link"><h2><?php the_title(); ?></h2></a>
-								<p class="home_date">
-									<i class="fa fa-calendar"></i>  <?php the_time("j M 'y") ?>
-									<i class="fa fa-user"></i> <?php the_author(); ?>
-									<i class="fa fa-tags"></i> <?php echo get_the_tag_list(' ',',',''); ?></p>
+								<i class="fa fa-calendar"></i>  <?php the_time("F j, Y") ?> <span> | </span>
+								<i class="fa fa-user"></i> <?php the_author(); ?> <span> | </span>
+								<i class="fa fa-tags"></i> <?php echo get_the_tag_list(' ' , ' , ' ,' '); ?>
 								<p class="home-content"><?php the_excerpt(); ?></p>
 								<a href="<?php the_permalink(); ?>" class="readmore">Read More</a>
 							</div> <!-- end post -->
@@ -121,15 +120,11 @@
 
 						// loop through the rows of data
 				    while ( have_rows('services') ) : the_row();
-						$icon = get_sub_field('service_icon');
 						$title = get_sub_field('service_title');
-						$service_info = get_sub_field('service_info');
+						$service_info = get_sub_field('services_listed');
 			?>
 			<div class="col-md-4">
 				<div class="service">
-					<div class="icon">
-						<?php echo $icon; ?>
-					</div>
 					<h3 class="service_title">
 						<?php echo $title; ?>
 					</h3>
