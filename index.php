@@ -2,7 +2,6 @@
 <div id="page_wrapper">
 	<h2 class="headline">Blog</h2>
 	<div class="container">
-		
 			<div class="row">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<div class="post_content col-md-4">

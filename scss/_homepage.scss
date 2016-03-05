@@ -8,6 +8,19 @@
 .blog-content{
 	background: $white;
 	padding: 15px;
+	p{
+	    line-height: 2em;
+	}
+}
+
+.contactme{
+	background: #20B5B3;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    &:hover{
+    	background: #20B5B3;
+    }
 }
 
 

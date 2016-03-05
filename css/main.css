@@ -5819,7 +5819,8 @@ html, body {
   height: 100%; }
 
 #page_wrapper {
-  padding-top: 2em; }
+  padding-top: 2em;
+  min-height: 543px; }
   #page_wrapper .page_content {
     margin-top: 3em; }
 
@@ -5834,6 +5835,9 @@ html, body {
 /* Login Header */
 .logged-in {
   padding-top: 30px; }
+
+html, body {
+  height: 100%; }
 
 .headline {
   text-align: center;
@@ -5979,6 +5983,16 @@ label {
 .blog-content {
   background: #ffffff;
   padding: 15px; }
+  .blog-content p {
+    line-height: 2em; }
+
+.contactme {
+  background: #20B5B3;
+  color: white;
+  margin-top: 15px;
+  border: none; }
+  .contactme:hover {
+    background: #20B5B3; }
 
 .recent_posts {
   margin-bottom: 90px;
