@@ -128,7 +128,11 @@
 					<h3 class="service_title">
 						<?php echo $title; ?>
 					</h3>
-					<p class="service_info"><?php echo $service_info; ?></p>
+					<p class="service_info">
+						<?php echo $service_info; ?>
+						<a href="/contact" class="btn contactme">Contact Me</a>
+					</p>
+
 				</div>
 			</div>
 

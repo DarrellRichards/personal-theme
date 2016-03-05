@@ -12,6 +12,21 @@ span.ninja-forms-req-symbol {
     color: #1fb5ac!important;
 }
 
+.text-wrap.label-above label, .textarea-wrap.label-above label{
+	display: none!important;
+}
+
+.form_field{
+	padding: 10px;
+    background: #F0F0F0;
+    border: none;
+}
+.big_field_text{
+	padding: 10px;
+    background: #F0F0F0;
+    border: none;
+}
+
 
 /* Contact Form CSS */
 

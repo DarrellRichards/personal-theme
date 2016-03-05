@@ -6032,6 +6032,10 @@ label {
     text-align: center; }
   .service p {
     line-height: 2em; }
+  .service .contactme {
+    background: #20B5B3;
+    color: white;
+    margin-top: 15px; }
 
 .project {
   display: inline-block;
@@ -6111,6 +6115,19 @@ span.ninja-forms-req-symbol {
 
 .ninja-forms-field-error {
   color: #1fb5ac !important; }
+
+.text-wrap.label-above label, .textarea-wrap.label-above label {
+  display: none !important; }
+
+.form_field {
+  padding: 10px;
+  background: #F0F0F0;
+  border: none; }
+
+.big_field_text {
+  padding: 10px;
+  background: #F0F0F0;
+  border: none; }
 
 /* Contact Form CSS */
 .Contact_boxes-wrap {
