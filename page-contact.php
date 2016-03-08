@@ -20,6 +20,7 @@
 								<ul class="social">
 									<li><a href="https://twitter.com/Via_MacAttack" target="_blank"><i class="fa fa-twitter fa-1x"></i></a></li>
 									<li><a href="https://www.instagram.com/darrellrrichards/" target="_blank"><i class="fa fa-instagram fa-1x"></i></a></li>
+									<li><a href="https://www.behance.net/darrellrrichards" target="_blank"><i class="fa fa-behance fa-1x"></i></a></li>
 									<li><a href="https://www.linkedin.com/in/darrellrdesigns" target="_blank"><i class="fa fa-linkedin fa-1x"></i></a></li>
 								</ul>
 							</div>
