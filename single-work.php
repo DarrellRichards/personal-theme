@@ -13,10 +13,21 @@
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<div class="col-md-8">
 						<div id="project_full_image">
-							<?php if ( has_post_thumbnail() ) {
-							?>
-								<img src="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>" width="100%" height="100%">
-							<?php } ?>
+							<?php 
+
+							$image1 = get_field('image1');
+							$image2 = get_field('image2');
+							$image3 = get_field('image3');
+
+							if( !empty($image1) ): ?>
+								<img src="<?php echo $image1; ?>" width="100%" height="100%" />
+							<?php endif; ?>
+							<?php if( !empty($image2) ): ?>
+								<img src="<?php echo $image2; ?>" width="100%" height="100%" />
+							<?php endif; ?>
+							<?php if( !empty($image3) ): ?>
+								<img src="<?php echo $image3; ?>" width="100%" height="100%" />
+							<?php endif; ?>
 						</div>
 					</div>
 					<div class="col-md-4">

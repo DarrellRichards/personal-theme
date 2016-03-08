@@ -5818,6 +5818,22 @@ body {
 html, body {
   height: 100%; }
 
+pre, code {
+  direction: ltr;
+  text-align: left; }
+
+pre {
+  border: solid 1px blue;
+  font-size: 1.3 em;
+  color: blue;
+  margin: 10px;
+  padding: 10px;
+  background: #FFFFB3; }
+
+code {
+  font-size: 1.2em;
+  color: #008099; }
+
 #page_wrapper {
   padding-top: 2em;
   min-height: 543px; }
@@ -5986,14 +6002,6 @@ label {
   .blog-content p {
     line-height: 2em; }
 
-.contactme {
-  background: #20B5B3;
-  color: white;
-  margin-top: 15px;
-  border: none; }
-  .contactme:hover {
-    background: #20B5B3; }
-
 .recent_posts {
   margin-bottom: 90px;
   background: #369787;
@@ -6132,6 +6140,18 @@ span.ninja-forms-req-symbol {
 
 .text-wrap.label-above label, .textarea-wrap.label-above label {
   display: none !important; }
+
+.email_sub .contactme {
+  background: #20B5B3;
+  color: white;
+  margin-top: 15px;
+  border: none; }
+  .email_sub .contactme:hover {
+    background: #20B5B3; }
+
+#yikes-easy-mc-form-1-EMAIL {
+  width: 100%;
+  padding: 10px; }
 
 .form_field {
   padding: 10px;

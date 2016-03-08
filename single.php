@@ -8,12 +8,13 @@
 					<div class="content blog-content">
 						<h3><?php the_title(); ?></h3>
 						<p class="home_date">
-							<i class="fa fa-calendar"></i>  <?php the_time("j M 'y") ?>
+							<i class="fa fa-calendar"></i>  <?php the_time("F j, Y") ?>
 							<i class="fa fa-user"></i> <?php the_author(); ?>
 							<i class="fa fa-tags"></i> <?php echo get_the_tag_list(' ',',',''); ?></p>
 						<hr>
 						<?php the_content(); ?>
 						<hr>
+						
 					</div>
 				</div>
 				<div class="col-md-5">
@@ -27,8 +28,6 @@
 				</div>
 			</div>		
 <?php endwhile; ?>
-			<?php previous_post_link(); ?> 
-			<?php next_post_link(); ?>
 		</div>
 	</section>
 <?php else: ?>

@@ -16,6 +16,23 @@ span.ninja-forms-req-symbol {
 	display: none!important;
 }
 
+.email_sub{
+	.contactme{
+		background: #20B5B3;
+	    color: white;
+	    margin-top: 15px;
+	    border: none;
+	    &:hover{
+	    	background: #20B5B3;
+	    }
+	}
+}
+
+#yikes-easy-mc-form-1-EMAIL {
+    width: 100%;
+    padding: 10px;
+}
+
 .form_field{
 	padding: 10px;
     background: #F0F0F0;
