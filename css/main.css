@@ -6128,6 +6128,9 @@ span.text-content {
           .project_information #links ul li a i:hover {
             color: #1fb5ac; }
 
+#project_full_image img {
+  margin-bottom: 30px; }
+
 /* Ninja Form Classes */
 .ninja-forms-required-items {
   display: none; }

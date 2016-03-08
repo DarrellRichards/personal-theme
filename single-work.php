@@ -20,13 +20,13 @@
 							$image3 = get_field('image3');
 
 							if( !empty($image1) ): ?>
-								<img src="<?php echo $image1; ?>" width="100%" height="100%" />
+								<img src="<?php echo $image1; ?>" width="100%" height="100%" /> <br>
 							<?php endif; ?>
 							<?php if( !empty($image2) ): ?>
-								<img src="<?php echo $image2; ?>" width="100%" height="100%" />
+								<img src="<?php echo $image2; ?>" width="100%" height="100%" /> <br>
 							<?php endif; ?>
 							<?php if( !empty($image3) ): ?>
-								<img src="<?php echo $image3; ?>" width="100%" height="100%" />
+								<img src="<?php echo $image3; ?>" width="100%" height="100%" /> <br>
 							<?php endif; ?>
 						</div>
 					</div>
